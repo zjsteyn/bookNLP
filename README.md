@@ -25,6 +25,9 @@ Download external jars (which are sadly too big for GitHub's 100MB file size lim
 
 * Download and unzip http://nlp.stanford.edu/software/stanford-corenlp-full-2017-06-09.zip
 * copy stanford-corenlp-full-2017-06-09/stanford-corenlp-3.8.0-models.jar to the lib/ folder in the current working directory
+* Version of JDK and JRE required to run bookNLP is on Mac OS Sierra: jdk-8u65-macosx-x64 and jre-8u65-macosx-x64. This may be quired if you receive an *Unsupported major.minor version 52.0* error, you will need to [uninstall your current java version](https://www.java.com/en/download/help/mac_uninstall_java.xml) and reinstall the specific versions listed versions. You will be able to download them from the [Oracle archive website](https://www.oracle.com/technetwork/java/javase/downloads/java-archive-javase8-2177648.html). There may be other version that would also work however it was possible to run the pipeline with the specific setup on  Mac OS.
+
+
 
 
 #### Example
